@@ -33,7 +33,7 @@ const randomMarkers = generateRandomMarkers(50); // Generate 50 random markers
 const Map = () => {
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: 'AIzaSyC07ypwKM1RfudPJzISDsH5qukPqZwVTkw', // Replace with your API key
+        googleMapsApiKey: 'Key', // Replace with your API key
     });
 
     const [map, setMap] = useState(null);
